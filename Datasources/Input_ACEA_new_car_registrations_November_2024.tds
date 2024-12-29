@@ -1,0 +1,532 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0705.0334                               -->
+<datasource formatted-name='federated.0afoc5y1crsv6r1a3gwni0mp12e2' inline='true' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+  </document-format-change-manifest>
+  <connection class='federated'>
+    <named-connections>
+      <named-connection caption='ACEA_new_car_registrations_November_2024' name='textscan.084ussz07132rc1ad1fri12uuqeg'>
+        <connection class='textclean' cleaning='yes' compat='no' csvFile='/Users/bartjutte/Downloads/ACEA_new_car_registrations_November_2024.csv' dataRefreshTime='' directory='/Users/bartjutte/Downloads' filename='/var/folders/6r/49kkfcxd3lbdw9ynwxg1hytm0000gn/T/tableau-temp/09tricg0kmrkry101najf1s34u8g/ACEA_new_car_registrations_November_2024.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+      </named-connection>
+    </named-connections>
+    <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.084ussz07132rc1ad1fri12uuqeg' name='ACEA_new_car_registrations_November_2024.csv' table='[ACEA_new_car_registration#csv$]' type='table'>
+      <columns character-set='UTF-8' gridOrigin='A1:V37:no:A1:V37:3' header='yes' locale='en' separator=','>
+        <column datatype='string' name='F1' ordinal='0' />
+        <column datatype='integer' name='November November 2024' ordinal='1' />
+        <column datatype='integer' name='November 1 November 2023' ordinal='2' />
+        <column datatype='real' name='% change % change 24/23' ordinal='3' />
+        <column datatype='integer' name='November 2 November 2024' ordinal='4' />
+        <column datatype='integer' name='November 3 November 2023' ordinal='5' />
+        <column datatype='real' name='% change 1 % change 24/23' ordinal='6' />
+        <column datatype='integer' name='November 4 November 2024' ordinal='7' />
+        <column datatype='integer' name='November 5 November 2023' ordinal='8' />
+        <column datatype='real' name='% change 2 % change 24/23' ordinal='9' />
+        <column datatype='integer' name='November 6 November 2024' ordinal='10' />
+        <column datatype='integer' name='November 7 November 2023' ordinal='11' />
+        <column datatype='real' name='% change 3 % change 24/23' ordinal='12' />
+        <column datatype='integer' name='November 8 November 2024' ordinal='13' />
+        <column datatype='integer' name='November 9 November 2023' ordinal='14' />
+        <column datatype='real' name='% change 4 % change 24/23' ordinal='15' />
+        <column datatype='integer' name='November 10 November 2024' ordinal='16' />
+        <column datatype='integer' name='November 11 November 2023' ordinal='17' />
+        <column datatype='real' name='% change 5 % change 24/23' ordinal='18' />
+        <column datatype='integer' name='November 12 November 2024' ordinal='19' />
+        <column datatype='integer' name='November 13 November 2023' ordinal='20' />
+        <column datatype='real' name='% change 6 % change 24/23' ordinal='21' />
+      </columns>
+    </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+    <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.084ussz07132rc1ad1fri12uuqeg' name='ACEA_new_car_registrations_November_2024.csv' table='[ACEA_new_car_registration#csv$]' type='table'>
+      <columns character-set='UTF-8' gridOrigin='A1:V37:no:A1:V37:3' header='yes' locale='en' separator=','>
+        <column datatype='string' name='F1' ordinal='0' />
+        <column datatype='integer' name='November November 2024' ordinal='1' />
+        <column datatype='integer' name='November 1 November 2023' ordinal='2' />
+        <column datatype='real' name='% change % change 24/23' ordinal='3' />
+        <column datatype='integer' name='November 2 November 2024' ordinal='4' />
+        <column datatype='integer' name='November 3 November 2023' ordinal='5' />
+        <column datatype='real' name='% change 1 % change 24/23' ordinal='6' />
+        <column datatype='integer' name='November 4 November 2024' ordinal='7' />
+        <column datatype='integer' name='November 5 November 2023' ordinal='8' />
+        <column datatype='real' name='% change 2 % change 24/23' ordinal='9' />
+        <column datatype='integer' name='November 6 November 2024' ordinal='10' />
+        <column datatype='integer' name='November 7 November 2023' ordinal='11' />
+        <column datatype='real' name='% change 3 % change 24/23' ordinal='12' />
+        <column datatype='integer' name='November 8 November 2024' ordinal='13' />
+        <column datatype='integer' name='November 9 November 2023' ordinal='14' />
+        <column datatype='real' name='% change 4 % change 24/23' ordinal='15' />
+        <column datatype='integer' name='November 10 November 2024' ordinal='16' />
+        <column datatype='integer' name='November 11 November 2023' ordinal='17' />
+        <column datatype='real' name='% change 5 % change 24/23' ordinal='18' />
+        <column datatype='integer' name='November 12 November 2024' ordinal='19' />
+        <column datatype='integer' name='November 13 November 2023' ordinal='20' />
+        <column datatype='real' name='% change 6 % change 24/23' ordinal='21' />
+      </columns>
+    </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+    <metadata-records>
+      <metadata-record class='capability'>
+        <remote-name />
+        <remote-type>0</remote-type>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias />
+        <aggregation>Count</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='integer' name='context'>1</attribute>
+          <attribute datatype='string' name='gridOrigin'>&quot;A1:V36:no:A1:V36:1&quot;</attribute>
+          <attribute datatype='integer' name='lost'>0</attribute>
+          <attribute datatype='integer' name='outcome'>1</attribute>
+          <attribute datatype='integer' name='processed'>715</attribute>
+        </attributes>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>F1</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[F1]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>F1</remote-alias>
+        <ordinal>0</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <contains-null>true</contains-null>
+        <collation flag='1' name='LEN_S2' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November</remote-alias>
+        <ordinal>1</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November 1</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November 1]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November 1</remote-alias>
+        <ordinal>2</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>% change</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[% change]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>% change</remote-alias>
+        <ordinal>3</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>15</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November 2</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November 2]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November 2</remote-alias>
+        <ordinal>4</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November 3</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November 3]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November 3</remote-alias>
+        <ordinal>5</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>% change 1</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[% change 1]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>% change 1</remote-alias>
+        <ordinal>6</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>15</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November 4</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November 4]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November 4</remote-alias>
+        <ordinal>7</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November 5</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November 5]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November 5</remote-alias>
+        <ordinal>8</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>% change 2</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[% change 2]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>% change 2</remote-alias>
+        <ordinal>9</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>15</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November 6</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November 6]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November 6</remote-alias>
+        <ordinal>10</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November 7</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November 7]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November 7</remote-alias>
+        <ordinal>11</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>% change 3</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[% change 3]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>% change 3</remote-alias>
+        <ordinal>12</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>15</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November 8</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November 8]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November 8</remote-alias>
+        <ordinal>13</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November 9</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November 9]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November 9</remote-alias>
+        <ordinal>14</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>% change 4</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[% change 4]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>% change 4</remote-alias>
+        <ordinal>15</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>15</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November 10</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November 10]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November 10</remote-alias>
+        <ordinal>16</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November 11</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November 11]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November 11</remote-alias>
+        <ordinal>17</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>% change 5</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[% change 5]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>% change 5</remote-alias>
+        <ordinal>18</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>15</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November 12</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November 12]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November 12</remote-alias>
+        <ordinal>19</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>November 13</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[November 13]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>November 13</remote-alias>
+        <ordinal>20</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>% change 6</remote-name>
+        <remote-type>5</remote-type>
+        <local-name>[% change 6]</local-name>
+        <parent-name>[ACEA_new_car_registrations_November_2024.csv]</parent-name>
+        <remote-alias>% change 6</remote-alias>
+        <ordinal>21</ordinal>
+        <local-type>real</local-type>
+        <aggregation>Sum</aggregation>
+        <precision>15</precision>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+    </metadata-records>
+  </connection>
+  <aliases enabled='yes' />
+  <column caption='PHEV % Change' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[% change 1]' role='measure' type='quantitative' />
+  <column caption='HEV % Change' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[% change 2]' role='measure' type='quantitative' />
+  <column caption='Other % Change' datatype='real' name='[% change 3]' role='measure' type='quantitative' />
+  <column caption='Petrol % Change' datatype='real' name='[% change 4]' role='measure' type='quantitative' />
+  <column caption='Diesel % Change' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[% change 5]' role='measure' type='quantitative' />
+  <column caption='Total % Change' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[% change 6]' role='measure' type='quantitative' />
+  <column caption='BEV % Change' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[% change]' role='measure' type='quantitative' />
+  <column caption='BEV Check ROUND Change' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[BEV Check % Change (copy)_807762844499083265]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='ROUND(((SUM([November])/SUM([November 1])-1)*100),1)' />
+  </column>
+  <column caption='Diesel Check ROUND Change' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[BEV Check ROUND Change (copy)_807762844503171075]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='ROUND(((SUM([November 10])/SUM([November 11])-1)*100),1)' />
+  </column>
+  <column caption='BEV Change' datatype='integer' name='[Calculation_656329306982739968]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='-[November 1]+[November]' />
+  </column>
+  <column caption='BEV Market Share Nov 2024' datatype='real' default-format='p0%' name='[Calculation_656329306985369601]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='SUM([November])/SUM([November 12])' />
+  </column>
+  <column caption='BEV Check % Change' datatype='real' default-format='p0.00%' name='[Calculation_807762844494999552]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='(SUM([November])/SUM([November 1]))-1' />
+  </column>
+  <column caption='BEV Check' datatype='real' name='[Calculation_807762844499951618]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='SUM([% change])-[BEV Check % Change (copy)_807762844499083265]' />
+  </column>
+  <column caption='Diesel Check' datatype='real' name='[Check BEV (copy)_807762844503678980]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='SUM([% change 5])-[BEV Check ROUND Change (copy)_807762844503171075]' />
+  </column>
+  <column caption='HEV Check' datatype='real' name='[Diesel Check (copy)_807762844504911878]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='SUM([% change 2])-[Diesel Check ROUND Change (copy)_807762844504698885]' />
+  </column>
+  <column caption='HEV Check ROUND Change' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[Diesel Check ROUND Change (copy)_807762844504698885]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='ROUND(((SUM([November 4])/SUM([November 5])-1)*100),1)' />
+  </column>
+  <column caption='Petrol Check ROUND Change' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[Diesel Check ROUND Change (copy)_807762844507295751]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='ROUND(((SUM([November 8])/SUM([November 9])-1)*100),1)' />
+  </column>
+  <column caption='Country' datatype='string' name='[F1]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+  <column caption='Petrol Check' datatype='real' name='[HEV Check (copy)_807762844507463688]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='SUM([% change 4])-[Diesel Check ROUND Change (copy)_807762844507295751]' />
+  </column>
+  <column caption='Other Check' datatype='real' name='[HEV Check (copy)_807762844510797836]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='SUM([% change 3])-[Petrol Check ROUND Change (copy)_807762844510437387]' />
+  </column>
+  <column caption='PHEV Check ROUND Change' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[HEV Check ROUND Change (copy)_807762844509188105]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='ROUND(((SUM([November 2])/SUM([November 3])-1)*100),1)' />
+  </column>
+  <column caption='Diesel Nov 2024' datatype='integer' name='[November 10]' role='measure' type='quantitative' />
+  <column caption='Diesel Nov 2023' datatype='integer' name='[November 11]' role='measure' type='quantitative' />
+  <column caption='Total Nov 2024' datatype='integer' name='[November 12]' role='measure' type='quantitative' />
+  <column caption='Total Nov 2023' datatype='integer' name='[November 13]' role='measure' type='quantitative' />
+  <column caption='BEV Nov 2023' datatype='integer' name='[November 1]' role='measure' type='quantitative' />
+  <column caption='PHEV Nov 2024' datatype='integer' name='[November 2]' role='measure' type='quantitative' />
+  <column caption='PHEV Nov 2023' datatype='integer' name='[November 3]' role='measure' type='quantitative' />
+  <column caption='HEV Nov 2024' datatype='integer' name='[November 4]' role='measure' type='quantitative' />
+  <column caption='HEV Nov 2023' datatype='integer' name='[November 5]' role='measure' type='quantitative' />
+  <column caption='Other Nov 2024' datatype='integer' name='[November 6]' role='measure' type='quantitative' />
+  <column caption='Other Nov 2023' datatype='integer' name='[November 7]' role='measure' type='quantitative' />
+  <column caption='Petrol Nov 2024' datatype='integer' name='[November 8]' role='measure' type='quantitative' />
+  <column caption='Petrol Nov 2023' datatype='integer' name='[November 9]' role='measure' type='quantitative' />
+  <column caption='BEV Nov 2024' datatype='integer' name='[November]' role='measure' type='quantitative' />
+  <column caption='PHEV Check' datatype='real' name='[Petrol Check (copy)_807762844509388810]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='SUM([% change 1])-[HEV Check ROUND Change (copy)_807762844509188105]' />
+  </column>
+  <column caption='Other Check ROUND Change' datatype='real' default-format='n#,##0.0;-#,##0.0' name='[Petrol Check ROUND Change (copy)_807762844510437387]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='ROUND(((SUM([November 6])/SUM([November 7])-1)*100),1)' />
+  </column>
+  <_.fcp.ObjectModelTableType.true...column caption='ACEA_new_car_registrations_November_2024.csv' datatype='table' name='[__tableau_internal_object_id__].[ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654]' role='measure' type='quantitative' />
+  <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+  <semantic-values>
+    <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+  </semantic-values>
+  <date-options start-of-week='monday' />
+  <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    <objects>
+      <object caption='ACEA_new_car_registrations_November_2024.csv' id='ACEA_new_car_registrations_November_2024.csv_A7FB2635FD7848749DCC9D0769CB6654'>
+        <properties context=''>
+          <relation connection='textscan.084ussz07132rc1ad1fri12uuqeg' name='ACEA_new_car_registrations_November_2024.csv' table='[ACEA_new_car_registration#csv$]' type='table'>
+            <columns character-set='UTF-8' gridOrigin='A1:V37:no:A1:V37:3' header='yes' locale='en' separator=','>
+              <column datatype='string' name='F1' ordinal='0' />
+              <column datatype='integer' name='November November 2024' ordinal='1' />
+              <column datatype='integer' name='November 1 November 2023' ordinal='2' />
+              <column datatype='real' name='% change % change 24/23' ordinal='3' />
+              <column datatype='integer' name='November 2 November 2024' ordinal='4' />
+              <column datatype='integer' name='November 3 November 2023' ordinal='5' />
+              <column datatype='real' name='% change 1 % change 24/23' ordinal='6' />
+              <column datatype='integer' name='November 4 November 2024' ordinal='7' />
+              <column datatype='integer' name='November 5 November 2023' ordinal='8' />
+              <column datatype='real' name='% change 2 % change 24/23' ordinal='9' />
+              <column datatype='integer' name='November 6 November 2024' ordinal='10' />
+              <column datatype='integer' name='November 7 November 2023' ordinal='11' />
+              <column datatype='real' name='% change 3 % change 24/23' ordinal='12' />
+              <column datatype='integer' name='November 8 November 2024' ordinal='13' />
+              <column datatype='integer' name='November 9 November 2023' ordinal='14' />
+              <column datatype='real' name='% change 4 % change 24/23' ordinal='15' />
+              <column datatype='integer' name='November 10 November 2024' ordinal='16' />
+              <column datatype='integer' name='November 11 November 2023' ordinal='17' />
+              <column datatype='real' name='% change 5 % change 24/23' ordinal='18' />
+              <column datatype='integer' name='November 12 November 2024' ordinal='19' />
+              <column datatype='integer' name='November 13 November 2023' ordinal='20' />
+              <column datatype='real' name='% change 6 % change 24/23' ordinal='21' />
+            </columns>
+          </relation>
+        </properties>
+      </object>
+    </objects>
+  </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+</datasource>
